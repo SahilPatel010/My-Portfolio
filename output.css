@@ -453,6 +453,9 @@
   .h-32 {
     height: calc(var(--spacing) * 32);
   }
+  .h-40 {
+    height: calc(var(--spacing) * 40);
+  }
   .h-\[0vh\] {
     height: 0vh;
   }
