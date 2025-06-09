@@ -917,6 +917,15 @@
       line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
+  .sm\:hover\:text-\[\#FFB300\] {
+    @media (width >= 40rem) {
+      &:hover {
+        @media (hover: hover) {
+          color: #FFB300;
+        }
+      }
+    }
+  }
   .md\:static {
     @media (width >= 48rem) {
       position: static;
@@ -1021,6 +1030,15 @@
     @media (width >= 48rem) {
       font-size: var(--text-7xl);
       line-height: var(--tw-leading, var(--text-7xl--line-height));
+    }
+  }
+  .md\:hover\:text-\[\#FFB300\] {
+    @media (width >= 48rem) {
+      &:hover {
+        @media (hover: hover) {
+          color: #FFB300;
+        }
+      }
     }
   }
   .lg\:mx-\[200px\] {
